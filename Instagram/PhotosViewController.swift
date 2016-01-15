@@ -12,12 +12,11 @@ import AFNetworking
 class PhotosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
-    //@IBOutlet weak var photoView: UIImageView!
     
     var posts: [NSDictionary]?
     
     // BONUS
-    let CellIdentifier = "TableViewCell", HeaderViewIdentifier = "TableViewHeaderView"
+    // let CellIdentifier = "TableViewCell", HeaderViewIdentifier = "TableViewHeaderView"
     // END BONUS
     
     override func viewDidLoad() {
@@ -27,8 +26,8 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         tableView.delegate = self
         
         //BONUS
-        tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: CellIdentifier)
-        tableView.registerClass(UITableViewHeaderFooterView.self, forHeaderFooterViewReuseIdentifier: HeaderViewIdentifier)
+        // tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: CellIdentifier)
+        // tableView.registerClass(UITableViewHeaderFooterView.self, forHeaderFooterViewReuseIdentifier: HeaderViewIdentifier)
         //END BONUS
         
         tableView.rowHeight = 320
