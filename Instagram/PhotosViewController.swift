@@ -63,7 +63,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         // Dispose of any resources that can be recreated.
     }
     
-    
+    /*
     // BONUS
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
         return data.count
@@ -82,9 +82,9 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         return 30
     }
     //END BONUS
+    */
     
-    
-    /* Excluded to implement bonus
+    // Excluded to implement bonus
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if let posts = posts {
             return posts.count
@@ -113,7 +113,7 @@ class PhotosViewController: UIViewController, UITableViewDataSource, UITableView
         
         return cell
     }
-    */
+    
 
 
 }
